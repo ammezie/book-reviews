@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <BookList/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import BookList from './components/Book/BookList'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    BookList
   }
 }
 </script>
@@ -21,7 +20,6 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
